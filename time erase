@@ -1,0 +1,36 @@
+player.Chatted:Connect(function(msg)
+    if msg == "Time Erase!" then
+        wait(1)
+		    local A_1 = "Time Breaker!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+		    wait(1)
+		    local script = Instance.new('LocalScript', Save_Pos)
+		    
+            plr = game:GetService('Players').LocalPlayer
+            X1 = plr.Character:FindFirstChild('HumanoidRootPart').CFrame.X
+            Y1 = plr.Character:FindFirstChild('HumanoidRootPart').CFrame.Y
+            Z1 = plr.Character:FindFirstChild('HumanoidRootPart').CFrame.Z
+		    wait(1)
+		    game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10000, 1500, 10000)
+            wait(1)
+            game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11000, 1500, 11000)
+            wait(1)
+            game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10000, 1500, 10000)
+            wait(1)
+            game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11000, 1500, 11000)
+            wait(1)
+            game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10000, 1500, 10000)
+            wait(1)
+            game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11000, 1500, 11000)
+            wait(1)
+            game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10000, 1500, 10000)
+            wait(1)
+            game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11000, 1500, 11000)
+            wait(1)
+            game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10000, 1500, 10000)
+            wait(1)
+            game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11000, 1500, 11000)
+            wait(1)
+            local A_1 = "My time is back!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
+            plr.Character.HumanoidRootPart.CFrame = CFrame.new(X1,Y1+5,Z1)
+        end
+    end)
