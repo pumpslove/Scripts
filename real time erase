@@ -1,0 +1,9 @@
+if game.PlaceId == 2788229376 then
+    local L_2_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+    L_2_.prompt('Time Erase', 'Current Game: Da Hood', 5)
+    L_2_.prompt('Time Erase', 'Join Discord: .gg/k6n2QZNv', 5)
+    L_2_.prompt('Time Erase', 'Use "Time Erase!" to enable!', 5)
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/pumpslove/Scripts/Time-Erase-Script/time%20erase"))()
+    
+end
